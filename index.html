@@ -1,27 +1,38 @@
 ---
-hehe: 么么哒~
-title: 我的第一篇博客
-zhaiyao: 123456789
+layout: base
 ---
+ <div id="portfolio-sec" style="padding-top:50px;padding-bottom:80px;">
 
-<h1>name: {{page.name}}</h1>
-<h1>文章标题： {{page.title}}！</h1>
-<!-- 过滤器 -->
-<h4>{{page.zhaiyao}}</h4>
-<!-- 12... -->
-<h4>{{page.zhaiyao | truncate:5,'*'}}</h4>
-
-{{ '<a href="">123</a>' }}
-{{ '<a href="">123</a>' | strip_html }}
-
-<!-- 输出_config.yml中的数据 -->
-<h1>
-我今年{{site.age}}岁了。。。。
-</h1>
-
-<!-- 将时间格式化为年月日 时分秒 -->
-<h1>{{site.time | date:'%Y-%m-%d %H:%M:%S'}}</h1>
-
-
-site
-page
+	<div class="container">
+		 <div class="row text-center">
+		<div class="col-md-12" >
+	
+      <a href="news.html" class="list-group-item">
+        <h4 class="list-group-item-heading title">商务部事件</h4>
+        <p class="list-group-item-text zhaiyao">查看详情</p>
+      </a>
+      <p class="text-right author">作者：shuodee 时间：2019-11-20</p>
+      <hr>
+      <a href="news2.html" class="list-group-item">
+        <h4 class="list-group-item-heading title">台湾著名统派人士陈明忠去世 享年93岁</h4>
+        <p class="list-group-item-text zhaiyao">查看详情</p>
+      </a>
+      <p class="text-right author">作者：shuodee 时间：2019-11-20</p>
+      <hr>
+      <a href="news3.html" class="list-group-item">
+        <h4 class="list-group-item-heading title">湖南12岁女孩遭公职人员等多人强奸 其父一夜白头</h4>
+        <p class="list-group-item-text zhaiyao">查看详情</p>
+      </a>
+      <p class="text-right author">作者：shuodee 时间：2019-11-20</p>
+      <hr>
+   
+      
+      
+	</div>
+	</div>
+		
+		 <div class="row text-center">
+		   <div class="col-md-6" ></div>
+	</div>
+</div>
+</div>
